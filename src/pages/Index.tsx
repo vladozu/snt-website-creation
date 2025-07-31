@@ -71,7 +71,7 @@ const Index = () => {
             </div>
             <div className="flex items-center space-x-2 text-secondary">
               <Icon name="Phone" size={16} />
-              <span className="font-medium">+7 (916) 611-09-96</span>
+              <span className="font-medium">+7 (916) 840-07-18</span>
             </div>
           </div>
         </div>
@@ -325,15 +325,15 @@ const Index = () => {
               <div className="space-y-2 text-sm">
                 <div className="flex items-center">
                   <Icon name="MapPin" size={16} className="mr-2" />
-                  <span>Московская область, Подольский район</span>
+                  <span>Московская область, Орехово-Зуевский район</span>
                 </div>
                 <div className="flex items-center">
                   <Icon name="Phone" size={16} className="mr-2" />
-                  <span>+7 (916) 611-09-96</span>
+                  <span>+7 (916) 840-07-18</span>
                 </div>
                 <div className="flex items-center">
                   <Icon name="Mail" size={16} className="mr-2" />
-                  <span>info@snt-lesnaya-skazka.ru</span>
+                  <span>fio_admin@mail.ru</span>
                 </div>
               </div>
             </div>
