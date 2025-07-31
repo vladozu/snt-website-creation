@@ -65,7 +65,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <div>
-                <h1 className="text-2xl font-bold text-primary">СНТ "Нагорье"</h1>
+                <h1 className="text-2xl font-bold text-primary">СНТ "Лесная Сказка"</h1>
                 <p className="text-sm text-muted-foreground">Садоводческое некоммерческое товарищество</p>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold mb-4 text-secondary">Это наш дом!</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Добро пожаловать на официальный сайт садоводческого некоммерческого товарищества "Нагорье". 
+                Добро пожаловать на официальный сайт садоводческого некоммерческого товарищества "Лесная Сказка". 
                 Здесь вы найдете всю актуальную информацию о жизни нашего товарищества.
               </p>
               <div className="flex space-x-4">
@@ -114,7 +114,7 @@ const Index = () => {
             <div className="hidden md:block">
               <img 
                 src="/img/bc6e12ff-21c1-45ca-94be-ce76261a0324.jpg" 
-                alt="СНТ Нагорье" 
+                alt="СНТ Лесная Сказка" 
                 className="rounded-lg shadow-lg w-full h-80 object-cover"
               />
             </div>
@@ -313,7 +313,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h4 className="font-bold text-lg mb-4">СНТ "Нагорье"</h4>
+              <h4 className="font-bold text-lg mb-4">СНТ "Лесная Сказка"</h4>
               <p className="text-sm text-secondary-foreground/80">
                 Садоводческое некоммерческое товарищество, основанное в 1985 году. 
                 Площадь территории: 15 гектаров, 120 участков.
@@ -333,7 +333,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center">
                   <Icon name="Mail" size={16} className="mr-2" />
-                  <span>info@snt-nagorie.ru</span>
+                  <span>info@snt-lesnaya-skazka.ru</span>
                 </div>
               </div>
             </div>
@@ -350,7 +350,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-secondary-foreground/20 mt-8 pt-4 text-center text-sm text-secondary-foreground/60">
-            <p>&copy; 2024 СНТ "Нагорье". Все права защищены.</p>
+            <p>&copy; 2024 СНТ "Лесная Сказка". Все права защищены.</p>
           </div>
         </div>
       </footer>
