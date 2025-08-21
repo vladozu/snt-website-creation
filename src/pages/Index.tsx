@@ -81,11 +81,14 @@ const Index = () => {
       <nav className="bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4">
           <div className="flex space-x-8 py-3">
-            {['Главная', 'Новости', 'Документы', 'Правление', 'Участки', 'Контакты', 'Объявления', 'Галерея'].map((item) => (
-              <button key={item} className="hover:text-primary transition-colors font-medium">
-                {item}
-              </button>
-            ))}
+            <a href="/" className="hover:text-primary transition-colors font-medium">Главная</a>
+            <a href="/news" className="hover:text-primary transition-colors font-medium">Новости</a>
+            <a href="/documents" className="hover:text-primary transition-colors font-medium">Документы</a>
+            <a href="/board" className="hover:text-primary transition-colors font-medium">Правление</a>
+            <button className="hover:text-primary transition-colors font-medium">Участки</button>
+            <button className="hover:text-primary transition-colors font-medium">Контакты</button>
+            <button className="hover:text-primary transition-colors font-medium">Объявления</button>
+            <button className="hover:text-primary transition-colors font-medium">Галерея</button>
           </div>
         </div>
       </nav>
@@ -101,11 +104,11 @@ const Index = () => {
                 Здесь вы найдете всю актуальную информацию о жизни нашего товарищества.
               </p>
               <div className="flex space-x-4">
-                <Button size="lg" className="bg-primary hover:bg-primary/90">
+                <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.location.href = '/documents'}>
                   <Icon name="FileText" size={20} className="mr-2" />
                   Документы
                 </Button>
-                <Button size="lg" variant="outline">
+                <Button size="lg" variant="outline" onClick={() => window.location.href = '/board'}>
                   <Icon name="Users" size={20} className="mr-2" />
                   Правление
                 </Button>
