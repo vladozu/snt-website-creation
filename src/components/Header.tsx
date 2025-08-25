@@ -38,10 +38,10 @@ export default function Header() {
             <a href="/news" className="hover:text-primary transition-colors font-medium">Новости</a>
             <a href="/documents" className="hover:text-primary transition-colors font-medium">Документы</a>
             <a href="/board" className="hover:text-primary transition-colors font-medium">Правление</a>
-            <button className="hover:text-primary transition-colors font-medium">Участки</button>
-            <button className="hover:text-primary transition-colors font-medium">Контакты</button>
-            <button className="hover:text-primary transition-colors font-medium">Объявления</button>
-            <button className="hover:text-primary transition-colors font-medium">Галерея</button>
+            <a href="/plots" className="hover:text-primary transition-colors font-medium">Участки</a>
+            <a href="/contacts" className="hover:text-primary transition-colors font-medium">Контакты</a>
+            <a href="/announcements" className="hover:text-primary transition-colors font-medium">Объявления</a>
+            <a href="/gallery" className="hover:text-primary transition-colors font-medium">Галерея</a>
           </div>
         </div>
       </nav>
