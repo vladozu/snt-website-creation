@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Icon from '@/components/ui/icon';
+import Layout from '@/components/Layout';
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -33,7 +34,8 @@ const Gallery = () => {
     : images.filter(img => img.category === selectedCategory);
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <Layout>
+      <div className="bg-gray-50 p-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
@@ -161,7 +163,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
